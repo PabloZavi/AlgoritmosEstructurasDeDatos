@@ -72,3 +72,9 @@ Bottom-up (iterative)
 Using recursion, we check if there are any items left and if the current item fits into the knapsack. If both conditions are met, for each item, we decide whether to include it—reducing the remaining capacity—or exclude it, and then recursively call the function. This process continues until we reach the base case or there is no remaining space in the knapsack.
 
 This recursive function generates all possible subsets, and the subset with the maximum value is then selected.
+
+To be updated...
+
+# MaxValue Exercise (from Divide & Conquer)
+Recursion Tree example for MaxValue exercise.
+![image](https://github.com/user-attachments/assets/061f1c5b-1b75-4c70-8c1e-3a64313501a2)
