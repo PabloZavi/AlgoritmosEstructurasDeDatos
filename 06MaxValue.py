@@ -3,8 +3,6 @@
 def maxValue(arr):
     if len(arr) == 1:
         return arr[0]
-    if len(arr) == 2:
-        return max(arr[0], arr[1])
     
     maxElement = max(
         maxValue(arr[ : len(arr)//2]), 
