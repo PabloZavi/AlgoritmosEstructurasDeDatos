@@ -1,10 +1,26 @@
-For every exercise, I analyze all the possible ways to arrive at a solution to thoroughly understand not only the exercise itself but also the underlying concepts of recursion, memoization, and my personal favorite, the iterative approach.
+This repository is part of one of the bootcamps I decided to take after rediscovering programming—a passion I’ve had since I was a kid but had to put on hold due to various circumstances and needs. This happened shortly after graduating as a University Technician in Programming from UTN Mendoza (just to share a bit about myself).
 
-Sometimes, it was straightforward, while other times, it was a challenging journey that took me up to two weeks to fully grasp a concept (and yes, I still have some doubts xD).
+The bootcamp is "Algoritmos y Estructuras de Datos" from the platform Código Facilito: https://codigofacilito.com/.
 
-The foundation of every explanation you’ll see here comes from a process I developed after each Código Facilito class. It involved gathering information from a variety of sources: videos, texts, incredible books like Grokking Algorithms, trial and error on a large board, and finally, leveraging the power of AI tools. I enjoy working with AI tools because they help me organize the sometimes chaotic ideas in my brain into words that are easier for everyone to understand.
+This README will be like a travel guide for sailors. I'll document parts of the process, include clarifications, and—given my love for explaining concepts when I find a good explanation for something, especially when it was complex to learn—I’ll share my own explanations. My goal is to distill the understanding I’ve worked hard to achieve into clear and accessible insights.
+
+For every exercise, I analyze all the possible ways to arrive at a solution to thoroughly understand not only the exercise itself but also the underlying concepts of recursion, memoization, the iterative approach, approximation algorithms, etc. Sometimes, it’s straightforward, while other times, it’s a challenging journey that can take up to two weeks to fully grasp a concept (and yes, I still have some doubts xD).
+
+The foundation of every explanation here comes from a process I developed after each Código Facilito class. It involves gathering information from diverse sources: videos, texts, incredible books like Grokking Algorithms, trial and error on a large board, and finally, leveraging the power of AI tools. I enjoy working with AI tools because they help me organize the sometimes chaotic ideas in my brain into clear, structured explanations. However, I also believe that truly understanding the deeper workings and structure of concepts is essential. AI is an amazing tool for organizing and enhancing what you already know but not a substitute for foundational understanding.
+
+This repository will serve as a personal reference for myself in the future, as well as a space to complete the exercises proposed in each class. My usual approach is to solve the exercises on my own first and then review the instructor’s solutions. I’ll also share parts of my learning process, including insights I gained from exploring a wide range of sources. From popular videos with thousands of views to obscure YouTubers with fewer than 15 followers who demonstrate their passion and brilliance, I’ve drawn inspiration from a variety of voices.
 
 I hope these explanations help you better understand each process. If you need a more detailed or visual explanation, please don’t hesitate to reach out—it would be a pleasure! You can contact me at pablozaviok@gmail.com.
+
+# Final (for now) Consideration:
+AI is an amazing tool—a great support system with excellent suggestions—and I’m completely in favor of its use. However, when it comes to understanding the deeper workings of things and their structure, I don’t recommend relying on it too much. It’s akin to the old habit of copy-pasting from Encarta (for the 40+ crowd) or Wikipedia—"getting it done without truly understanding."
+
+You really can’t overstate the importance of understanding something properly—or getting as close as possible—so that, when you do use AI, you can apply intelligent solutions to problems. This way, you know what to search for, how to search, when to search, and so on. I know this is often said, but I’m sharing this from the perspective of learning and from my limited experience working with others in this field. (Although I mentioned earlier that I recently resumed programming, it doesn’t mean I haven’t done some things before or learned from them, including during my time at university.)
+
+Without further ado, welcome to this humble repository!
+
+
+-----------------------------------------------------
 
 
 
