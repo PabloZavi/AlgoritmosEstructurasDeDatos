@@ -6,7 +6,7 @@ This README will be like a travel guide for sailors. I'll document parts of the 
 
 For every exercise, I analyze all the possible ways to arrive at a solution to thoroughly understand not only the exercise itself but also the underlying concepts of recursion, memoization, the iterative approach, approximation algorithms, etc. Sometimes, it’s straightforward, while other times, it’s a challenging journey that can take up to two weeks to fully grasp a concept (and yes, I still have some doubts xD).
 
-The foundation of every explanation here comes from a process I developed after each Código Facilito class. It involves gathering information from diverse sources: videos, texts, incredible books like Grokking Algorithms, trial and error on a large board, and finally, leveraging the power of AI tools. I enjoy working with AI tools because they help me organize the sometimes chaotic ideas in my brain into clear, structured explanations. However, I also believe that truly understanding the deeper workings and structure of concepts is essential. AI is an amazing tool for organizing and enhancing what you already know but not a substitute for foundational understanding.
+The foundation of every explanation here comes from a process I developed after each Código Facilito class. It involves gathering information from diverse sources: videos, texts, incredible books like Grokking Algorithms or Introduction to Algorithms, trial and error on a large board, and finally, leveraging the power of AI tools. I enjoy working with AI tools because they help me organize the sometimes chaotic ideas in my brain into clear, structured explanations. However, I also believe that truly understanding the deeper workings and structure of concepts is essential. AI is an amazing tool for organizing and enhancing what you already know but not a substitute for foundational understanding.
 
 This repository will serve as a personal reference for myself in the future, as well as a space to complete the exercises proposed in each class. My usual approach is to solve the exercises on my own first and then review the instructor’s solutions. I’ll also share parts of my learning process, including insights I gained from exploring a wide range of sources. From popular videos with thousands of views to obscure YouTubers with fewer than 15 followers who demonstrate their passion and brilliance, I’ve drawn inspiration from a variety of voices.
 
@@ -94,3 +94,18 @@ To be updated...
 # MaxValue Exercise (from Divide & Conquer)
 Recursion Tree example for MaxValue exercise.
 ![image](https://github.com/user-attachments/assets/061f1c5b-1b75-4c70-8c1e-3a64313501a2)
+
+
+# Dijkstra Algorithm
+
+![alt text](image.png)
+
+
+
+References:
+Books:
+Introduction to Algorithms 4th Edition (Leiserson.Stein.Rivest.Cormen.)
+Grokking Algorithms (Bhargava)
+
+Videos:
+Explicando el Algoritmo de Dijkstra (https://www.youtube.com/watch?v=4I7W5WUQQQI)
