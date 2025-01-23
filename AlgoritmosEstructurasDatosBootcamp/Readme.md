@@ -102,10 +102,88 @@ Recursion Tree example for MaxValue exercise.
 
 
 
+---
+## Metaheurísticas
+### Random Search
+Ojo! Este algoritmo no se considera metaheurístico, ya que es totalmente aleatorio.
+Se trata de generar soluciones aleatorias dentro de límites predefinidos e ir evaluando la calidad de cada una.
+
+1. Se define el espacio de búsqueda, los límites y la dimensión del problema.
+2. Se generan soluciones aleatorias dentro de los límites. No se toma en cuenta la información previa o patrones conocidos.
+3. Se evalúan las soluciones mediante una función objetivo. Si aparece una solución mejor a las anteriores, se guarda como mejor solución.
+4. Se repite un número predefinido de veces o hasta encontrar una solución lo suficientemente buena.
+
+**Ventajas**
+-Fácil de implementar.
+-Explora ampliamente el espacio de búsqueda (útil para tener una idea general de posibles soluciones)
+
+**Desventajas**
+-Ineficiente en problemas grandes y complejos, al depender totalmente del azar.
+-Falta de dirección al no utilizar información sobre el problema para guiar la búsqueda.
+
+En clase se vio un ejemplo con:
+-Función objetivo --> (x-3)**2 (problema de minimización)
+-Límite inferior --> -10
+-Límite superior --> 10
+-Iteraciones --> 1000
+Se trata de ir probando diferentes límites, iteraciones, etc para ver qué es lo que mejor puede funcionar.
+
+---
+
+### Iterated Gredy
+Es un algoritmo metaheurístico que equilibra la exploración con la explotación, combinando la técnica de Greedy (explotación) con perturbaciones (explotación) para generar aletoriedad.
+
+1. Se genera una solución inicial mediante una heurística o de manera aleatoria.
+2. Perturbación/Destrucción (exploración): se eliminan algunos componentes de la solución inicial.
+3. Reconstrucción/Mejoramiento (explotación): se añaden nuevamente los componentes, mejorando la solución mediante heurística.
+4. Evaluación: Se compara la nueva solución con la anterior.
+5. Iteración: para mejorar y refinar la solución.
+
+
+En clase se vio un ejemplo para resolver el problema de la mochila:
+Se genera la perturbación haciendo que los items sean aleatorios y no estén ordenados.
+Se concluye que para este caso, al tener muy poca cantidad de variables (sólo dos: peso y valor) y pocos elementos para analizar, es mejor usar el **Greedy normal** para resolverlo y no el **Iterated Greedy** (metaheurístico)
+
+---
+
+### Ant Colony Optimization
+Los 'Ant Colony Algorithms' están inspirados en el comportamiento de las hormigas en la naturaleza.
+
+**Objetivo**--> Encontrar las mejores rutas, las soluciones más óptimas o inclusive la mejor forma de organizar distintas tareas y recursos.
+
+**Funcionamiento**
++ Simulación de hormigas: hay diferentes hormigas por diferentes caminos buscando comida.
++ Feromonas: Cada hormiga deja un rastro de feromonas. Los caminos más efectivos tendrán más feromonas, atrayendo a las hormigas hacia mejores áreas, haciendo que el algoritmo converja hacia la solución más óptima.
++ Fortalecimiento de rutas: más hormigas encontrando comida en determinados caminos = más fuerte el rastro de feromonas.
++ Evitar malos caminos: caminos sin comida o con trampas --> el rastro de feromonas desaparece con el tiempo (evaporización de feromonas)
+
+**Equilibrio entre exploración y explotación**
+Depósito de feromonas --> Explotación
+Evaporización de feromonas --> Exploración
+A través de su combinación, se mantiene el equilibrio entre explotar lo que funciona bien y explorar cosas nuevas, ya que con el tiempo algunos caminos pueden quedar obsoletos o se pueden crear nuevos caminos.
+
+**Ejemplos de aplicaciones**
+Problema del viajero - Optimización de redes de comunicación o eléctricas - Logística - Alineación de secuencias de ADN - Diseño de circuitos y microchips...
+
+
+#### Maximum Independent Set
+Es un problema que se trata de marcar en un conjunto de nodos la mayor cantidad de ellos que no estén conectados entre sí por una arista.
+![Maximum Independent Set Examples](/MaxIndSet.png)
+
+**Ejemplos de aplicaciones**
++ Optimización de redes: para mejorar la distribución de recursos en redes de comunicación y evitar congestiones.
++ Asignación de tareas: para asignar tareas que no sean conflictivas entre sí.
++ Redes sociales: para encontrar el mayor grupo de personas que no se conocen entre sí.
+
+
+! --> Se ve en clase la aplicación de ACO (Ant Colony Optimization) para resolver MIS (Maximum Independent Set Problem)
+
+---
+
 References:
 Books:
 Introduction to Algorithms 4th Edition (Leiserson.Stein.Rivest.Cormen.)
 Grokking Algorithms (Bhargava)
 
 Videos:
-Explicando el Algoritmo de Dijkstra (https://www.youtube.com/watch?v=4I7W5WUQQQI)
+[Explicando el Algoritmo de Dijkstra] (https://www.youtube.com/watch?v=4I7W5WUQQQI)
